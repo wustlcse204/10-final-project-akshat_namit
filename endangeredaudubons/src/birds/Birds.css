@@ -1,0 +1,30 @@
+.testContainer {
+    grid-column: content;
+    display: grid;
+    grid-template-columns: [image] 3fr [info] 1fr;
+}
+
+.testImg {
+    grid-column: image;
+    border: 1px solid black;
+}
+
+.testInfo {
+    grid-column: info;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.testInfo__facts {
+    height: 200px;
+    padding: 50px;
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+.testInfo__quote {
+    height: 400px;
+    padding: 50px;
+    background-color: whitesmoke;
+}
