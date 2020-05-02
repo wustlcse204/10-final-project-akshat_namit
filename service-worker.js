@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/wustlcse204/10-final-project-akshat_namit/precache-manifest.5f2db27a417763eca429f406bc43e104.js"
+  "/wustlcse204/10-final-project-akshat_namit/precache-manifest.c4924b2e98ae8ac1b004ee25bb17ae41.js"
 );
 
 workbox.clientsClaim();

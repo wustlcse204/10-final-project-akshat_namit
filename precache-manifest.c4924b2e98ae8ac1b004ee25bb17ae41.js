@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/wustlcse204/10-final-project-akshat_namit/static/media/758_L.0d8b458a.png"
   },
   {
-    "revision": "90bce845eb46c97f3939",
+    "revision": "57be5002cab1e9f8f7a2",
     "url": "/wustlcse204/10-final-project-akshat_namit/static/css/main.3d5e92c5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/wustlcse204/10-final-project-akshat_namit/static/media/bg5.bc7a1d58.png"
   },
   {
-    "revision": "bc66311c469dbde53159",
-    "url": "/wustlcse204/10-final-project-akshat_namit/static/js/1.bc66311c.chunk.js"
+    "revision": "98220303003fb840d5a9",
+    "url": "/wustlcse204/10-final-project-akshat_namit/static/js/1.98220303.chunk.js"
   },
   {
     "revision": "1e321c8a7712622d8b63",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/wustlcse204/10-final-project-akshat_namit/static/media/3232_S.611cdd4c.png"
   },
   {
-    "revision": "90bce845eb46c97f3939",
-    "url": "/wustlcse204/10-final-project-akshat_namit/static/js/main.90bce845.chunk.js"
+    "revision": "57be5002cab1e9f8f7a2",
+    "url": "/wustlcse204/10-final-project-akshat_namit/static/js/main.57be5002.chunk.js"
   },
   {
     "revision": "0569ad8e9cb20f77d0694d289df2b585",
@@ -68,11 +68,11 @@ self.__precacheManifest = [
     "url": "/wustlcse204/10-final-project-akshat_namit/static/media/8230_S.a3428b84.png"
   },
   {
-    "revision": "bc66311c469dbde53159",
+    "revision": "98220303003fb840d5a9",
     "url": "/wustlcse204/10-final-project-akshat_namit/static/css/1.a4e418e0.chunk.css"
   },
   {
-    "revision": "9fb92e835b40ebf096a2c339e451b019",
+    "revision": "8e615242d87a78b88a76b6547222da82",
     "url": "/wustlcse204/10-final-project-akshat_namit/index.html"
   }
 ];
