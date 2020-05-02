@@ -1,30 +1,22 @@
-.testContainer {
+.page__container--birds {
+    margin-top: 100px;
+    
+}
+
+
+.imgContainer {
+    z-index: 2;
     grid-column: content;
     display: grid;
-    grid-template-columns: [image] 3fr [info] 1fr;
-}
-
-.testImg {
-    grid-column: image;
-    border: 1px solid black;
-}
-
-.testInfo {
-    grid-column: info;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-.testInfo__facts {
-    height: 200px;
-    padding: 50px;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: 250px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     margin-bottom: 100px;
-    background-color: whitesmoke;
 }
 
-.testInfo__quote {
-    height: 400px;
-    padding: 50px;
-    background-color: whitesmoke;
+.titletext--birds {
+    position: relative;
+    bottom: 85px;
 }

@@ -1,0 +1,22 @@
+/* .page__container--conservation {
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-auto-flow: row;
+  }
+   */
+/*   
+  .maintext {
+      grid-column: content;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .maintext p {
+    grid-column: 3 / 4;
+    align-self: center;
+  } */
+  
+  .titletext--conserve {
+    grid-row: 4 / 5;
+    position: relative;
+    bottom: 30px;
+  }

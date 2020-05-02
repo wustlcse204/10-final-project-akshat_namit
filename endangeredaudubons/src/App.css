@@ -1,23 +1,78 @@
 
+.page--main {
+
+  background: url("./images/bg5.png") no-repeat center center fixed;
+  background-size: cover;
+
+  margin: 0 auto;
+  overflow: scroll;
+
+}
+
 
 .page__container--mainpage {
-  grid-template-rows: 2fr 4fr 4fr;
-  grid-auto-flow: row;
+  margin-top: 50px;
+  grid-template-rows: 1fr 1fr; 
+  background-color: transparent;
+  
 }
 
 
 .maintext {
     grid-column: content;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    /* justify-self: center; */
 }
 
 .maintext p {
+  width: 400px;
   grid-column: 3 / 4;
   align-self: center;
+
+  color: #f9f6ef;
+  background-color: rgba(74,63,58, .55);
+
+  letter-spacing: .1em;
+  font-weight: 500;
+  padding: 25px;
 }
 
 .titletext {
   grid-column: 1 / 4;
-  font-size: 64px;
+  font-size: 72px;
+  letter-spacing: .2em;
+  color: #8a7b72
+}
+
+.titletext--main {
+  grid-row: 2 / 3;
+  position: relative;
+  bottom: 45px;
+}
+
+.titletext--main h1 {
+  margin: 0px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .page__container--mainpage {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .titletext h1 {
+    font-size: 150px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .maintext {
+    justify-self: center;
+  }
+  .titletext h1 {
+    display: none;
+  }
 }
