@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/wustlcse204/10-final-project-akshat_namit/static/media/758_L.0d8b458a.png"
   },
   {
-    "revision": "10bbe43253959bbccc14",
+    "revision": "ec6fbdc9f28e2ef9becb",
     "url": "/wustlcse204/10-final-project-akshat_namit/static/css/main.3d5e92c5.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/wustlcse204/10-final-project-akshat_namit/static/media/3232_S.611cdd4c.png"
   },
   {
-    "revision": "10bbe43253959bbccc14",
-    "url": "/wustlcse204/10-final-project-akshat_namit/static/js/main.10bbe432.chunk.js"
+    "revision": "ec6fbdc9f28e2ef9becb",
+    "url": "/wustlcse204/10-final-project-akshat_namit/static/js/main.ec6fbdc9.chunk.js"
   },
   {
     "revision": "0569ad8e9cb20f77d0694d289df2b585",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/wustlcse204/10-final-project-akshat_namit/static/css/1.a4e418e0.chunk.css"
   },
   {
-    "revision": "016b18ec30280cf382c76b3b17a23489",
+    "revision": "26db263f1d39e500530b73824a52bd0e",
     "url": "/wustlcse204/10-final-project-akshat_namit/index.html"
   }
 ];
