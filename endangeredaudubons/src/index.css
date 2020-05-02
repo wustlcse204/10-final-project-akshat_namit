@@ -4,14 +4,42 @@
   }
   
   html, body {
-    background-color: #fafafa;
+    background-color:#f9f6ef;
     height: 100%;
     margin: 0;
   }
   
   p {
     margin: 0px;
-    font-size: 14px;
+    font-size: 18px;
+    font-family: "gill-sans-nova", sans-serif;
+  }
+
+  h1 {
+    margin: 0px;
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    margin: 0px;
+  }
+
+  h3 {
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0px;
+  }
+
+  h4 {
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin: 0px;
   }
   
   ol, ul {
@@ -21,15 +49,18 @@
   ul {
     padding-left: 0px;
   }
+
+  strong {
+    font-family: "gill-sans-nova";
+  }
   
   .page {
       height: 100%;
-      background-color: antiquewhite;
+      background-color:#f9f6ef;
   }
   
   .page__container {
-    background-color: #fafafa;
-    background-color: antiquewhite;
+    background-color: #f9f6ef;
     width: 100%;
     min-width: 300px;
     height: 100%;
@@ -43,4 +74,21 @@
     display: none;
   }
   
-  
+  .triangle {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-top: 500px solid #f0e9d9;
+    border-right: 500px solid transparent;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+
+  .titletext {
+    font-size: 75%;
+  }
+}

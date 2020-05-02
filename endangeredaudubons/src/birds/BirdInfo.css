@@ -1,0 +1,133 @@
+
+.birdContainer {
+    grid-column: content;
+    display: grid;
+    grid-template-rows: [header] 100px [modal_content] 1fr;
+    grid-template-columns: [image] 1fr [info] 300px;
+    grid-gap: 15px;
+}
+
+.birdName--normal {
+    grid-column: image;
+    grid-row: header;
+    display: flex;
+    align-items: flex-end;
+    width: 90%;
+}
+
+.birdName--normal h2 {
+    position: relative;
+    left: 25px;
+    color: #929487;
+    letter-spacing: .1em;
+}
+
+
+.birdName--scientific {
+    grid-column: info;
+    grid-row: header;
+    display: flex;
+    align-items: flex-end;
+}
+
+.birdName--scientific h3 {
+    color: #929487;
+    font-style: italic;
+    letter-spacing: .07em;
+}
+
+
+
+
+.birdInfo {
+    grid-column: info;
+    grid-row: modal_content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: scroll;
+    margin-top: 25px;
+}
+
+
+
+.birdInfo__facts {
+    /* height: 300px; */
+    height: auto;
+    padding: 25px;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+    background-color: #8a7b72;
+    color: #fafafa;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.birdInfo__facts p {
+    font-size: 15px;
+    letter-spacing: .07em;
+}
+
+.infoScroll {
+    height: 300px;
+    overflow: scroll;
+}
+
+
+.birdInfo__quote {
+    padding: 25px;
+}
+
+.birdInfo__quote p {
+    color: #8a7b72;
+    font-size: 26px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.35em;
+    letter-spacing: .05em ;
+    
+}
+
+
+.birdContainer--small {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    /* width: 80%; */
+    /* margin-left: 50px; */
+}
+
+.birdContainer--small h4 {
+    color: #8590B8;
+    letter-spacing: 0.1em;
+    
+}
+
+.birdImg--small {
+    text-align: center;
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 10px;
+    /* overflow: hidden; */
+}
+
+.birdImg--small img {
+    transition: transform .5s, filter .05s ease-in-out;
+}
+
+.birdImg--small img:hover {
+    
+    transform: scale(1.15);
+
+}
+
+.birdText {
+    width: 93%;
+    display: flex;
+    align-items: left;
+}
+

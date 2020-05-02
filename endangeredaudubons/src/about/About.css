@@ -1,0 +1,20 @@
+.abouttext {
+  z-index: 2;
+  grid-column: content;
+  grid-row: 1 /2;
+  width: 75%;
+  height: 65%;
+  padding: 25px;
+  color: #8a7b72;
+  background-color: #fafafa;
+}
+
+
+.abouttext p {
+  letter-spacing: .07em;
+}
+
+
+  .titletext--about {
+    grid-row: 2 / 3;
+  }

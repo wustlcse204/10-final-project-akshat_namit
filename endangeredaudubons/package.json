@@ -1,5 +1,6 @@
 {
   "name": "endangeredaudubons",
+  "homepage": "https://wustlcse204.github.io/10-final-project-akshat_namit",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,11 +9,15 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-motion": "^0.5.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-text-collapse": "^0.5.2",
+    "rodal": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

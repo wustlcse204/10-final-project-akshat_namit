@@ -15,14 +15,15 @@ export default class TopBar extends Component {
         return (
             <div className = "topbar">
                 <div className = "topbar__text">
+                    <h1>
                     endangered audubons
+                    </h1>
                 </div>
                 <div className = "topbar__bar">
-                    {/* convert these to <link> routers later */}
-                    <Link className = "topbar__link" to="/">Home</Link>
-                    <Link className = "topbar__link" to="/birds">Birds</Link>
-                    <Link className = "topbar__link" to="conservation/">Conservation</Link>
-                    <Link className = "topbar__link" to="/about">About</Link>
+                    <Link className = "topbar__link" to="/"><p className = "link__text">Home</p></Link>
+                    <Link className = "topbar__link" to="/birds"><p className = "link__text">Birds</p></Link>
+                    {/* <Link className = "topbar__link" to="conservation/"><p className = "link__text">conservation</p></Link> */}
+                    <Link className = "topbar__link" to="/about"><p className = "link__text">About</p></Link>
 
                 </div>
             </div>
