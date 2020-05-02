@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {HashRouter as Router, Route} from 'react-router-dom'
 import {database} from './database.js'
 import TopBar from './topbar/TopBar'
 import About from './about/About'
